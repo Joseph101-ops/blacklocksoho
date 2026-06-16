@@ -109,12 +109,15 @@ We believe in simplicity done perfectly: great meat, great service, and a great 
 
 <h2>Reserve a Table</h2>
 
-<form id="bookingForm">
+<form action="https://formspree.io/f/xpzebqay" method="POST">
 
-<input type="text" placeholder="Full Name" required>
-<input type="number" placeholder="Phone Number" required>
-<input type="date" required>
-<input type="time" required>
+<input type="text" name="name" placeholder="Full Name" required>
+
+<input type="number" name="phone" placeholder="Phone Number" required>
+
+<input type="date" name="date" required>
+
+<input type="time" name="time" required>
 
 <button type="submit">Confirm Reservation</button>
 
