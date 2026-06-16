@@ -151,3 +151,23 @@ padding:30px;
 background:black;
 margin-top:50px;
 }
+
+/* SCROLL ANIMATION EFFECTS */
+
+.section{
+opacity:0;
+transform:translateY(80px);
+transition:1s ease;
+}
+
+.section.show{
+opacity:1;
+transform:translateY(0);
+}
+
+/* PARALLAX HERO */
+.hero{
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+}
